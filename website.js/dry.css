@@ -1,0 +1,99 @@
+body{
+  background-color:#fdf6ec;
+}
+.nav-bar{
+    width: 100%;
+    padding: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-bar{
+    position: sticky;
+}
+.brand{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+.cta{
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    transition: 1.1 ease-in;
+    color:black;
+    text-align: center;
+    justify-content: center;
+}
+.cta:hover{
+    transform: scale(1.1);
+    color:black;
+    background-color: lightpink;
+}
+
+.dry img:hover{
+     transform: scale(1.06);
+}
+.logo{
+    height: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+}
+body{
+ font-family: Arial;
+}
+.product-box {
+  width: 250px;
+  margin-left: 650px;
+  padding:150px;
+  line-height: 30px;
+
+  
+}
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.qty-box {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.qty-box button {
+  width: 30px;
+}
+.qty-box input {
+  width: 40px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  gap: 10px;
+}
+.cart {
+  background: goldenrod;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+.buy {
+  background:red;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
